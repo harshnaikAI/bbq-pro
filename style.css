@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #404040;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+h2 {
+  font-size: 1.3125rem;
+}
+
+.top-text {
+  font-size: 0.625rem;
+  order: -1;
+  font-weight: 900;
+  color: #f18119;
+  border-top: 5px solid #f18119;
+  text-transform: uppercase;
+  border-image: linear-gradient(to left, #ff713b, #ffa51d) 1;
+  letter-spacing: 1.5px;
+}
+
+h1 + P,
+h2 + p {
+  color: #f18119;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h1 + p {
+  font-size: 1.3125rem;
+}
+
+h2 + p {
+  margin-bottom: 1em;
+}
+
+.secondary-content > *,
+.main-content > * {
+  max-width: 400px;
+  margin-inline: auto;
+}
+
+/* MAIN */
+
+.main-content {
+  background-image: url("images/dark-ribs.jpg"),
+    linear-gradient(45deg, red, blue);
+  background-size: cover;
+  background-position: center;
+  background-color: #404040;
+  background-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50vh;
+  padding: 0 1em 2em;
+}
+
+.secondary-content {
+  padding: 2em 1em;
+}
+
+/* FORM */
+
+form {
+  width: 80%;
+  max-width: 300px;
+  margin-block: 1em;
+}
+
+.fine-print {
+  font-size: 0.625rem;
+  letter-spacing: 1px;
+}
+
+input,
+.btn {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1em 2em;
+  text-align: center;
+  margin-inline: auto;
+  width: 80%;
+  border-radius: 5px;
+  transform: scale(1);
+  transition: transform 250ms;
+}
+
+input {
+  display: block;
+  margin-bottom: 1em;
+  border: 1px solid #000;
+}
+
+input:focus {
+  transform: scale(1.1);
+}
+
+.btn-style {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  background-image: linear-gradient(to left, #ff713b, #ffa51d);
+  color: #fff;
+  font-weight: 900;
+}
+
+.btn:hover,
+.btn:focus {
+  transform: scale(1.1);
+}
+
+@media (min-width: 560px) {
+  body {
+    display: flex;
+    font-size: 1.125rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2,
+  h1 + p {
+    font-size: 1.75rem;
+  }
+
+  .fine-print {
+    font-size: 0.625rem;
+  }
+
+  .btn,
+  input {
+    font-size: inherit;
+  }
+
+  .main-content,
+  .secondary-content {
+    width: 50%;
+    min-height: 100vh;
+  }
+
+  .secondary-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
