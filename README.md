@@ -1,13 +1,25 @@
-# cof23472ea7f3c6123f3d4b1f
+# BBQ Project
 
-## About Scrimba
+Project from Scrimba's " Learn Responsive Web Design " by Kevin Powell
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+Description- This is an Responsive modren looking landing page for an Barbeque shop and it changes in design on mobile screens
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+1. Key features
 
-Happy Coding!
+  - Built using symantic HTML, CSS ( flex and grid ).
+  - Responsive to diffrent screen size.
+  - Changes in designs on mobile screens.
+  - Modren looking website.
+  - Includes Form.
+
+2. screen shot
+
+   -  ![bbq1](https://github.com/harshnaikAI/bbq-pro/assets/124079700/908276e2-bd6b-46c4-987d-bd612c1f3aa0)
+
+   - ![bbq2](https://github.com/harshnaikAI/bbq-pro/assets/124079700/a357cc0f-bbc1-47a2-a485-5f08dbba0552)
+  
+## Link
+
+  - [Netlify URL](https://bbq-shop-harsh.netlify.app/);
+
+
