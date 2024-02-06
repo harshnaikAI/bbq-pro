@@ -11,6 +11,7 @@ Description- This is an Responsive modren looking landing page for an Barbeque s
   - Changes in designs on mobile screens.
   - Modren looking website.
   - Includes Form.
+  - Technology used- Symatic HTML, CSS3.
 
 2. screen shot
 
