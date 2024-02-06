@@ -6,12 +6,12 @@ Description- This is an Responsive modren looking landing page for an Barbeque s
 
 1. Key features
 
-  - Built using symantic HTML, CSS ( flex and grid ).
-  - Responsive to diffrent screen size.
-  - Changes in designs on mobile screens.
-  - Modren looking website.
-  - Includes Form.
-  - Technology used- Symatic HTML, CSS3.
+   - Built using symantic HTML, CSS ( flex and grid ).
+   - Responsive to diffrent screen size.
+   - Changes in designs on mobile screens.
+   - Modren looking website.
+   - Includes Form.
+   - Technology used- Symatic HTML, CSS3.
 
 2. screen shot
 
