@@ -1,4 +1,4 @@
-# BBQ Project
+# BBQ Project ( vr.1.1 )
 
 Project from Scrimba's " Learn Responsive Web Design " by Kevin Powell
 
